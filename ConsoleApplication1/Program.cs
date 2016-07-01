@@ -12,6 +12,10 @@ namespace ConsoleApplication1
         {
             Console.WriteLine("hello world");
             Console.ReadKey();
+            Rectangle r = new Rectangle();
+            r.Acceptdetails();
+            r.Display();
+            Console.ReadLine();
         }
     }
 }
